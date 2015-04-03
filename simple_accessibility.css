@@ -1,0 +1,74 @@
+/*COMMON CSS*/
+/*Toolbar*/
+#accessibility-toolbar {
+	position:			fixed;
+	top:				30px;
+	right:				50px;
+	z-index:			100;
+	font-weight:		800;
+	font-size:			1.5em;
+	
+}
+
+#accessibility-toolbar div {
+	float: 				left;
+	border: 			1px solid black;
+	padding:			1px;
+	background-color:	white !important;
+}
+
+#accessibility-toolbar div a {
+	background-color:	white !important;
+	color: 				black !important;
+}
+
+#accessibility-toolbar #highContrast {
+	background-color:	black !important;
+	
+}
+
+#accessibility-toolbar #highContrast a {
+	background-color:	black !important;
+	color:				white !important;
+}
+
+#accessibility-toolbar a, #accessibility-toolbar a:hover, #accessibility-toolbar a:visited {
+	color: black;
+}
+
+#accessibility-toolbar #highContrast a, #accessibility-toolbar #highContrast a:hover, #accessibility-toolbar #highContrast a:visited {
+	color: 				white;
+}
+
+.high-contrast body {
+	background-color:	black !important;
+    color:				white !important;
+}
+
+.high-contrast div {
+	background-color:	black !important;
+	color:				white !important;
+}
+
+.high-contrast ul {
+	background-color:	black !important;
+	color:				white !important;
+}
+
+.high-contrast ul li {
+	background-color:	black !important;
+	color:				white !important;
+}
+
+.high-contrast a {
+	background-color:	black !important;
+	color:				white !important;
+}
+
+.zoom {
+	zoom: 				1.2; /* all browsers */
+	transform-origin:	20% 20%;
+    -moz-transform: 	scale(1.2); /* Firefox */
+	-moz-transform-origin: 0 0;
+	
+}
