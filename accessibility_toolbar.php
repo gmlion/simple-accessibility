@@ -1,7 +1,6 @@
 <?php
-function simpleAccessibility_filter( $content )
-    {
-        $content .=
+function simpleAccessibility_shortcode ($atts) {
+    $content =
         '<div id="accessibility-toolbar">
             <div id="highContrast">
                 <a href="#">A</a>
@@ -17,6 +16,6 @@ function simpleAccessibility_filter( $content )
             </div>
         </div>';
         
-        return $content;
-    }
+    return $content;
+}
 ?>

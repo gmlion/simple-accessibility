@@ -25,5 +25,5 @@ add_action( 'get_footer', 'simpleAccessibility_script' );
 
 include_once( 'accessibility_toolbar.php' );
 
-add_filter( 'the_content', 'simpleAccessibility_filter');
+add_shortcode('accessibility_toolbar', 'simpleAccessibility_shortcode');
 ?>
